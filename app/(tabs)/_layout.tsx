@@ -51,7 +51,7 @@ export default function TabLayout() {
   // Define colors based on theme
   const tabBarBackgroundColor = theme === 'dark' ? '#161622' : '#ffffff'
   const tabBarBorderColor = theme === 'dark' ? '#232533' : '#e0e0e0'
-  const tabBarActiveTintColor = theme === 'dark' ? '#FFA001' : '#FFA001'
+  const tabBarActiveTintColor = theme === 'dark' ? '#003366' : '#003366'
   const tabBarInactiveTintColor = theme === 'dark' ? '#CDCDE0' : '#8e8e93'
 
   return (
@@ -104,7 +104,7 @@ export default function TabLayout() {
           headerShown: false,
           tabBarIcon: ({ color, focused }) => (
             <TabIcon
-              icon={icons.bookmark}
+              icon={icons.cart}
               color={color}
               focused={focused}
             />
@@ -136,7 +136,7 @@ export default function TabLayout() {
           headerShown: false,
           tabBarIcon: ({ color, focused }) => (
             <TabIcon
-              icon={icons.profile}
+              icon={icons.user}
               color={color}
               focused={focused}
             />
@@ -151,7 +151,7 @@ export default function TabLayout() {
           headerShown: false,
           tabBarIcon: ({ color, focused }) => (
             <TabIcon
-              icon={icons.setting}
+              icon={icons.settings}
               color={color}
               focused={focused}
             />

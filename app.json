@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Aurashop",
-    "slug": "Aurashop",
+    "slug": "aurashop-o2yg2lpol-t1yalvbf6t7",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "https://img.freepik.com/premium-vector/auto-detailing-car-logo-automotive-car-wash-logo-vector-template_852937-3299.jpg",
@@ -29,7 +29,10 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -49,6 +52,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "014c1808-42f3-47ec-96bc-503982b36a6f"
+      }
+    },
+    "owner": "meyawee"
   }
 }

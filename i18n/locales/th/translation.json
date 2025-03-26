@@ -12,7 +12,7 @@
   "auth": {
     "login": {
       "title": "เข้าสู่ระบบ",
-      "emailPlaceholder": "อีเมล์",
+      "emailPlaceholder": "อีเมล",
       "passwordPlaceholder": "รหัสผ่าน",
       "button": "เข้าสู่ระบบ",
       "noAccount": "ยังไม่มีบัญชี ?",
@@ -31,7 +31,7 @@
     "register": {
       "title": "สมัครสมาชิก",
       "displayNamePlaceholder": "ชื่อสมาชิก",
-      "emailPlaceholder": "อีเมล์",
+      "emailPlaceholder": "อีเมล",
       "passwordPlaceholder": "รหัสผ่าน",
       "button": "สมัครสมาชิก",
       "hasAccount": "มีบัญชีอยู่แล้ว ?",
@@ -258,11 +258,11 @@
   },
   "landing": {
     "slogan": {
-      "line1": "ค้นพบประสบการณ์",
-      "line2": "ไร้ขีดจำกัดที่"
+      "line1": "ยินดีต้อนรับสู่",
+      "line2": "คลังรองเท้าที่"
     },
-    "description": "ค้นหาความคิดสร้างสรรค์ใหม่ได้ทุกวัน: เริ่มต้นการเดินทางของความคิดสร้างสรรที่ไร้ขีดจำกัดกับ Aura",
-    "button": "เริ่มใช้งาน"
+    "description": "ค้นหาsneakerคู่ใจสายแฟชั่น เท่ๆคูลๆ แบบมีสไตล์เป็นของตัวเองได้ที่ Starsneaker",
+    "button": "เข้าสู่ร้านค้า"
   },
   "editProduct": {
     "title": "แก้ไขสินค้า",

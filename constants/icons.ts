@@ -14,6 +14,9 @@ import play from "../assets/icons/play.png"
 import setting from "../assets/icons/setting.png"
 import flagth from "../assets/icons/thailand.png"
 import flagen from "../assets/icons/united-kingdom.png"
+import cart from "../assets/icons/cart.png"
+import settings from "../assets/icons/settings.png"
+import user from "../assets/icons/user.png"
 
 export default {
   bookmark,
@@ -32,4 +35,7 @@ export default {
   setting,
   flagth,
   flagen,
+  cart,
+  settings,
+  user,
 }

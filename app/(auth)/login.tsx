@@ -131,7 +131,7 @@ export default function login() {
               <Image
                 source={images.logo}
                 resizeMode="contain"
-                className="h-[34px]"
+                className="h-[200px]"
               />
             </View>
 

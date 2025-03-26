@@ -83,14 +83,14 @@ export default function Index() {
             <View className="w-full flex justify-center items-center h-full px-8">
               {/* Logo */}
               <Image
-                source={images.logo}
-                className="h-[84px]"
+               // source={images.logo}
+                className="h-[90px]"
                 resizeMode="contain"
               />
 
               {/* รูปภาพประกอบ */}
               <Image
-                source={images.cards}
+                source={images.logo}
                 className="max-w-[380px] w-full h-[298px]"
                 resizeMode="contain"
               />
@@ -100,7 +100,7 @@ export default function Index() {
                 <Text weight="bold" className="text-3xl text-center dark:text-white leading-10">
                   {t('landing.slogan.line1')}{"\n"}
                   {t('landing.slogan.line2')}{" "}
-                  <Text weight="bold" className="text-secondary-200">AuraShop</Text>
+                  <Text weight="bold" className="text-secondary-200">Starsneaker</Text>
                 </Text>
                 <Image
                   source={images.path}
